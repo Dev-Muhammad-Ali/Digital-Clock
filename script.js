@@ -18,6 +18,7 @@ function TIME(){
 
     if(h>12){
         h = h - 12;
+        alert(h);
         if(h<10){
             Hours.innerHTML = "0" + h;
         }
