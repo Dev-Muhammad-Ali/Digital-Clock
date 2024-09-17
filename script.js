@@ -8,7 +8,7 @@ function TIME(){
     let h = date.getHours();
     let m = date.getMinutes();
     let s = date.getSeconds(); 
-    alert(h);
+
     if(h>=12){
         zone.innerHTML = "PM"
     }
